@@ -1,0 +1,6 @@
+[console_scripts]
+initialize_paproject_db = paproject.initialize_db:main
+
+[paste.app_factory]
+main = paproject:main
+
