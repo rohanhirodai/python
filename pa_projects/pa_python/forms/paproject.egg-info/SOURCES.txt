@@ -1,0 +1,7 @@
+setup.py
+paproject.egg-info/PKG-INFO
+paproject.egg-info/SOURCES.txt
+paproject.egg-info/dependency_links.txt
+paproject.egg-info/entry_points.txt
+paproject.egg-info/requires.txt
+paproject.egg-info/top_level.txt
