@@ -1,0 +1,6 @@
+[console_scripts]
+initialize_papython_db = papython.scripts.initialize_db:main
+
+[paste.app_factory]
+main = papython:main
+
