@@ -1,0 +1,43 @@
+environment:
+
+Python 3.7
+
+venv: I used Python 3's built-in solution venv. 
+      For Python 2.7, you can install virtualenv.
+
+pip: I used pip for package management.
+
+
+Steps:
+
+Creating a project directory:
+pa_projects/pa_python/
+
+Setting an environment variable:
+export into VENV
+
+Creating a virtual environment:
+python3 
+venv 
+$VENV
+
+Updating packaging tools in the virtual environment:
+$VENV, upgrade pip setup tools
+
+Installing Pyramid:
+
+"pyramid==1.10.4" waitress
+
+
+
+project directory structure:
+
+~
+└── pa_projects
+    └── pa_python
+        ├── env
+        └── step_one
+            ├── intro
+            │   ├── __init__.py
+            │   └── app.py
+            └── setup.py
