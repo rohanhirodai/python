@@ -1,0 +1,9 @@
+bcrypt
+pyramid
+pyramid_chameleon
+waitress
+
+[dev]
+pyramid_debugtoolbar
+pytest
+webtest
