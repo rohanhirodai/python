@@ -1,0 +1,32 @@
+body {
+    margin: 2em;
+    font-family: sans-serif;
+}
+
+.flex-container {
+  display: flex;
+ 
+}
+
+.flex-container > div {
+  
+  margin: 10px;
+  padding: 20px;
+  font-size: 15px;
+  height: auto;
+  width:50%;
+}
+
+
+.flex-container1 {
+  display: flex;
+  
+}
+
+.flex-container1 > div {
+  
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  width:50%;
+}
