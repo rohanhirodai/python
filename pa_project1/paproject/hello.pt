@@ -2,6 +2,10 @@
 <html lang="en">
 <head>
     <title>Quick project: ${view.view_name} - ${page_title}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet"
+          href="${request.static_url('paproject:static/app.css') }"/>
 </head>
 <body>
 
@@ -9,6 +13,93 @@
  <h1>${view.view_name} - ${page_title}</h1>
  <p>Welcome, ${view.full_name}</p>
 </div>
+
+
+
+<div class="navbar">
+ 
+  <div class="objective">
+    <button class="objectivedropbtn">objective 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="objectivedropdown-content">
+      <a href="#">Mosaic-x</a>
+      <a href="#">Z-Slack</a>
+    </div>
+  </div> 
+
+  <div class="overlap">
+    <button class="overlapdropbtn">overlap 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="overlapdropdown-content">
+      <a href="#">Mosaic-y</a>
+      <a href="#">Average</a>
+    </div>
+  </div> 
+</div>
+
+
+
+<div class="flex-container3">
+
+  <div class="sessioninfo">
+   <h2>session info please input</h2>
+  </div>
+  <div class="savebutton">
+   <button>Save</button>
+  </div>
+  
+</div>
+
+
+<div class="flex-container4">
+
+  <div class="browse">
+    <form action="upload.php" method="post" enctype="multipart/form-data"> Select file to upload:
+     <input type="file" name="fileToUpload" id="fileToUpload">
+    </form>
+  </div>
+  
+  <div class="filename">
+     <h3>enter the filename in text</h3>
+  
+  </div>
+    
+</div>
+
+
+<div class="flex-container5">
+  <div>
+
+   <textarea id="Species" rows="4" cols="20">
+    Species
+   </textarea>
+  </div>
+
+  <div>
+   <textarea id="Organ" rows="4" cols="20">
+    Organ
+   </textarea>
+  </div>
+  
+  <div>
+  <textarea id="Dye" rows="4" cols="20">
+    Dye
+  </textarea>
+  </div>
+   
+</div>
+
+<div class="flex-container6">
+  <div class="notecomment">
+   <textarea id="notecomment" rows="12" cols="131">
+     Notes and Comments
+   </textarea>  
+  </div>  
+</div>
+
+
 
 </body>
 </html>

@@ -1,6 +1,6 @@
 body {
     margin: 2em;
-    font-family: sans-serif;
+    font-family: sans-serif, Helvetica, sans-serif;
 }
 
 .flex-container {
@@ -29,4 +29,176 @@ body {
   padding: 20px;
   font-size: 30px;
   width:50%;
+}
+
+
+
+.flex-container3 {
+  display: flex;
+  
+}
+
+.flex-container3 > div {
+  
+  margin: 10px;
+  padding: 20px;
+  font-size: auto;
+  width:50%;
+}
+
+
+.flex-container4 {
+  display: flex;
+  
+}
+
+.flex-container4 > div {
+  
+  margin: 10px;
+  padding: 20px;
+  font-size: auto;
+  width:50%;
+}
+
+
+.flex-container5 {
+  display: flex;
+  
+}
+
+.flex-container5 > div {
+  
+  margin: 10px;
+  padding: 20px;
+  font-size: auto;
+  width:33%;
+}
+
+
+
+.flex-container6 {
+  display: flex;
+  
+}
+
+.flex-container6 > div {
+  
+  margin: 10px;
+  padding: 20px;
+  font-size: auto;
+  width:100%;
+}
+
+
+
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.overlap {
+  float: left;
+  overflow: hidden;
+}
+
+.overlap .overlapdropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .overlap:hover .overlapdropbtn {
+  background-color: red;
+}
+
+.overlapdropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.overlapdropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.overlapdropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.overlap:hover .overlapdropdown-content {
+  display: block;
+}
+
+
+
+
+
+.objective {
+  float: left;
+  overflow: hidden;
+}
+
+.objective .objectivedropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.objective:hover .objectivedropbtn {
+  background-color: red;
+}
+
+.objectivedropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.objectivedropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.objectivedropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.objective:hover .objectivedropdown-content {
+  display: block;
 }
